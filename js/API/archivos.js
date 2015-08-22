@@ -45,7 +45,7 @@ var f = {
         writer.write(f.txt);
     },
 
-	gotFilteReader: function(file){
+	gotFileReader: function(file){
 		var reader = new FileReader();
         reader.onloadend = function(evt) {
             $('#aGet').txt(evt.target.result);
