@@ -48,7 +48,7 @@ var f = {
 	gotFileReader: function(file){
 		var reader = new FileReader();
         reader.onloadend = function(evt) {
-            $('#aGet').txt(evt.target.result);
+            $('#aGet').text(evt.target.result);
         };
         reader.readAsText(file);
 	},
