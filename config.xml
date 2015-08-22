@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mx.cenet.contactosArchivos"
+        version     = "1.0.0"
+        versionCode = "1" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.7.0" />
+
+        <name>ContactosArchivos</name>
+
+        <description>
+            Aplicación de prueba para los contactos y archivos. 
+        </description>
+
+        <author href="http://igitsoft.com" email="info@igitsoft.com">
+            Carlos Celma
+        </author>
+        
+        <icon src="img/icon.png" />
+        
+        <gap:plugin name="org.apache.cordova.file" />
+    </widget>
